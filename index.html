@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Favorite Programming Language Survey</title>
+  </head>
+
+  <body>
+    <form method="post">
+      <fieldset>
+        <legend>Add user</legend>
+
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="userFirstName" />
+        </div>
+
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="userLastName" />
+        </div>
+
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="userEmail" />
+        </div>
+
+        <div>
+          <label for="role">Role</label>
+          <select id="role" name="userRole">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
